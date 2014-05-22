@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+afterEach(function(done){
+  ${1}
+  done();
+});
+]]></content>
+  <tabTrigger>afterEacha</tabTrigger>
+  <scope>source.js</scope>
+  <description>Insert an asynchronous afterEach block</description>
+</snippet>

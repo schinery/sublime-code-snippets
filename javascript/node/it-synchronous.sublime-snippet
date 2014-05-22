@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+it('${1:description}', function(){
+  ${2}
+});
+]]></content>
+  <tabTrigger>it</tabTrigger>
+  <scope>source.js</scope>
+  <description>Insert an synchronous it block</description>
+</snippet>

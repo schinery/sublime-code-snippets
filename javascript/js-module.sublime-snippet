@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+var ${1:moduleName} = (function(){
+  // Private stuff goes here...
+  return{
+    // Public stuff goes here...
+  };
+})();
+]]></content>
+  <tabTrigger>jsModule</tabTrigger>
+  <scope>source.js</scope>
+  <description>Creates a JavaScript module</description>
+</snippet>
+

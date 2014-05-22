@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+var ${1:className} = function ${1:className}(){
+  {2}
+};
+]]></content>
+  <tabTrigger>jsClass</tabTrigger>
+  <scope>source.js</scope>
+  <description>Creates a JavaScript class</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+after(function(){
+  ${1}
+});
+]]></content>
+  <tabTrigger>after</tabTrigger>
+  <scope>source.js</scope>
+  <description>Insert a synchronous after block</description>
+</snippet>

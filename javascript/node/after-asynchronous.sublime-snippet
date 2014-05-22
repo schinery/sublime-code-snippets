@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+after(function(done){
+  ${1}
+  done();
+});
+]]></content>
+  <tabTrigger>aftera</tabTrigger>
+  <scope>source.js</scope>
+  <description>Insert an asynchronous after block</description>
+</snippet>

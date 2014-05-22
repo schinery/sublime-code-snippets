@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[(function(window, \$) {
+
+  \$.${1:pluginName} = function(el, options) {
+    var base = this;
+    base.\$el = \$(el);
+    base.el = el;
+    base.el.data("${1:pluginName}", base);
+    base.options = \$.extend({}, \$.${1:pluginName}.defaultOptions, options);
+
+    base.init = function() {
+    };
+
+    base.init();
+  };
+
+  \$.${1:pluginName}.defaultOptions = {};
+
+  \$.fn.${1:pluginName} = function(options) {
+    return this.each(function() {
+       (new \$.${1:pluginName}(\$(this), options));
+    });
+  };
+})(window, jQuery);]]></content>
+  <tabTrigger>jqPlugin</tabTrigger>
+  <scope>source.js</scope>
+  <description>Creates a jQuery plugin shell</description>
+</snippet>
