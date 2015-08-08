@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-var ${1:moduleName} = (function(){
+var ${1:moduleName} = (function() {
   // Private stuff goes here...
   return{
     // Public stuff goes here...
