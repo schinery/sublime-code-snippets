@@ -1,8 +1,10 @@
 <snippet>
   <content><![CDATA[
-var ${1:className} = function ${1:className}(){
+function ${1:className}() {
   {2}
 };
+
+module.export = ${1:className};
 ]]></content>
   <tabTrigger>jsClass</tabTrigger>
   <scope>source.js</scope>
